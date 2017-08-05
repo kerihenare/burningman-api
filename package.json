@@ -1,0 +1,42 @@
+{
+  "name": "burningman-api",
+  "version": "1.0.0",
+  "description": "Burning Man API wrapper",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib",
+    "text": "./test"
+  },
+  "scripts": {
+    "lint": "semistandard lib/*.js test/*.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerihenare/burningman-api.git"
+  },
+  "keywords": [
+    "burning man",
+    "burningman",
+    "api"
+  ],
+  "author": {
+    "name": "Keri Henare",
+    "email": "keri@henare.co.nz",
+    "url": "https://kerihena.re"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kerihenare/burningman-api/issues"
+  },
+  "homepage": "https://github.com/kerihenare/burningman-api#readme",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "semistandard": "^11.0.0"
+  }
+}
